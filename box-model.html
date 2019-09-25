@@ -12,6 +12,10 @@
                 border-radius: .5em;          /* add rounded corners */
             }
 
+            p {
+                border: 5px solid black;
+            }
+
             .main {
                 float: left;
                 width: 70%;
@@ -35,9 +39,24 @@
         </header>
         <div>
             <main class="main">
-                <h2>Here's some content.</h2>
+                <h2>Here's some examples of element sizing.</h2>
                 <p>
-                    The box model is more complicated that you might think
+                    This is a paragraph element, which is a block level element in the box model. It therefore by default takes up the whole width of the containing block.
+                </p>
+
+                <p style="width: 50%;">
+                    This is another paragraph element, which is a block level element in the box model. It has had it's width set to 50%.
+                    No margin has been explictly set for either of these paragraphs but there is still one present, because of the defaults for p elements (set to 1em).
+                    The margin in the middle of the two boxes has also been automatically collapsed.
+                </p>
+                <p style="height: 20%;">
+                    This box has a height set to 20%.
+                </p>
+                <p style="height: auto;">
+                    This paragraph has a height set to auto (the default).
+                </p>
+                <p style="min-height: 50px;">
+                    This paragraph has a minimum height set to 50px.
                 </p>
             </main>
             <aside class="sidebar">
