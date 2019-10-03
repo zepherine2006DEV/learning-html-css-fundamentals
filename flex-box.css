@@ -1,0 +1,24 @@
+.container, p, img {
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.container {
+    border: 2px solid red;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+p {
+    background-color: grey;
+}
+
+img {
+    height: 120px;
+}
