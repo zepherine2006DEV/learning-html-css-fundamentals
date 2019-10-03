@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 .container, p, img {
     border: 2px solid black;
     margin: 2px;
@@ -17,6 +21,14 @@
 
 .width100 {
     width: 100%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width20 {
+    width: 20%;
 }
 
 .wrap {
